@@ -20,5 +20,10 @@
         "zendframework/zendframework": "2.3.*",
         "lusitanian/oauth": "~0.3.0",
         "evandotpro/edp-module-layouts": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "SmxGoogleAuth\\": "src/",
+        }
     }
 }
