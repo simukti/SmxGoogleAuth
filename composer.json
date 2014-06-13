@@ -1,0 +1,24 @@
+{
+    "name": "simukti/smx-google-auth",
+    "description": "ZF2 module to authenticate user's google apps domain",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "google auth"
+    ],
+    "homepage": "https://github.com/simukti/SmxGoogleAuth",
+    "authors": [
+        {
+            "name": "Sarjono Mukti Aji",
+            "email": "me@simukti.net",
+            "homepage": "http://simukti.net/"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0",
+        "zendframework/zendframework": "2.3.*",
+        "lusitanian/oauth": "~0.3.0",
+        "evandotpro/edp-module-layouts": "*"
+    }
+}
