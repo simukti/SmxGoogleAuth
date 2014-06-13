@@ -35,5 +35,7 @@ return array(
         'route_after_login'   => 'home',
         // callback url
         'callback_route'      => 'smx.auth.callback',
+        // oauth route
+        'oauth_route'         => 'smx.auth.oauth'
     )
 );

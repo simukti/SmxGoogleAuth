@@ -64,7 +64,9 @@ class IndexController extends AbstractActionController
         $view = new ViewModel();
         $view->setVariables(array(
             'domain' => $this->authService
-                             ->getOption('domain')
+                             ->getOption('domain'),
+            'oauth_route' => $this->authService
+                             ->getOption('oauth_route')
         ));
         
         return $view;
